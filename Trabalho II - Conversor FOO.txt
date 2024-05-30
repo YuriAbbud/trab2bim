@@ -1,0 +1,59 @@
+Trabalho II
+Conversor Foo
+
+Atualmente, há diversos padrões e formatos para realizar o armazenamento, compactação e reprodução de imagens em meio virtual. Tais representações podem utilizar-se de sistemas para representações de cores em imagens coloridas ou então de escalas de cinza, para imagens monocromáticas.
+
+Considere que o arquivo de armazenamento de uma imagem com extensão .foo segue o seguinte padrão:
+
+● Uma largura, formatada como caracteres ASCII em decimal.
+● Espaço em branco.
+● Uma altura, novamente em decimal ASCII.
+● Um caractere de final de linha.
+● Uma sequência de bytes representando, respectivamente, cada pixel da
+imagem.
+
+Obs: cada byte pode assumir valores entre 0 e 255.
+
+Tais arquivos serão utilizados para criar banners, lidos por aplicativos de linha de comando. Para criar tais banners, é preciso converter os arquivos de extensão .foo para .foo2.
+Os arquivos com extensão .foo2 devem possuir a seguinte estrutura:
+
+● Uma largura, formatada como caracteres ASCII em decimal.
+● Espaço em branco.
+● Uma altura, novamente em decimal ASCII.
+● Um caractere de final de linha.
+● Uma sequência de caracteres ASCII com diferentes densidades
+representando, respectivamente, cada pixel da imagem conforme
+especificação a seguir:
+
+$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,"^`.
+
+Obs: Caracteres ordenados por densidade descendente.
+
+Método de funcionamento da aplicação:
+1) Todos os parâmetros necessários para a execução deverão ser informados na chamada via interface de linha de comando (cli) conforme especificado a seguir:
+
+./a.out img1.foo img2.foo2
+
+Onde img1.foo é a imagem original, img2.foo2 é a imagem convertida.
+
+2) A aplicação deverá exibir no terminal a quantidade de linhas e colunas da imagem original.
+3) O arquivo resultante da conversão deverá ser armazenado na mesma pasta da aplicação.
+4) Se, por qualquer motivo, não for possível concluir a conversão, informar o erro, encerrar a aplicação e retornar o status -1.
+Importante: sua aplicação deverá lidar com imagens de diferentes resoluções. Isto é, ela deverá aceitar arquivos .foo com quaisquer dimensões de altura e largura.
+Na SAV da disciplina de Técnicas de Programação II, sob a guia “Trabalhos e Exercícios” você encontrará um arquivo Exemplos.rar com imagens .jpg, e respectivas imagens .foo e .foo2.
+
+Atenção!
+● Serão permitidos grupos de, no máximo, 3 alunos e deverão ser definidos e informados na SAV da disciplina até 23:58h do dia 14/05/2024. Após esta data não será permitida a mudança de grupos. Casos omissos serão tratados pelo docente.
+● Entrega: 02/06/2024 contendo todos os códigos fontes, devidamente documentados, até às 23:58h via Portal (SAV da disciplina TP2);
+● Não serão aceitos trabalhos:
+	o após a data e horário de entrega;
+	o que utilizem códigos em outra linguagem de programação, senão C++;
+	o que utilizem containers (vector, queue, stack, priority_queue, list, set, map...), bem como declarações de variáveis/ponteiros com auto type.
+	o que utilizem outras bibliotecas/repositórios exceto a biblioteca padrão de C++ (https://en.cppreference.com/w/cpp/header).
+● Todos os vetores/matrizes utilizados no trabalho, exceto a estrutura que guarda os caracteres com diferentes densidades, devem ser alocados dinamicamente!
+● O código deve ser organizado de forma modular, usando funções/procedimentos.
+● Opcionalmente, os programas resultantes do trabalho poderão serem testados na presença do professor durante o horário da aula de TP2 seguinte à data de entrega;
+● O código fonte (nome-a-escolher.cpp) deve conter, nas suas primeiras linhas, um campo de comentário com o nome e o número institucional dos responsáveis pelo trabalho;
+● Trabalhos reconhecidos como ‘muito semelhantes’ pela sua estrutura de programação serão desconsiderados. Lembrem-se, variáveis com nomes diferentes, mas em códigos com a mesma estrutura, são considerados ‘muito semelhantes’;
+● Ressalto que este trabalho pode envolver alguns conhecimentos da linguagem de programação C++ que não foram cobertos pelos exemplos ou pelos exercícios realizados em aula. No entanto, estes conhecimentos estão disponíveis nos livros referenciados como material de apoio na ementa da disciplina.
+Bom trabalho!
