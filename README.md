@@ -44,16 +44,25 @@ Na SAV da disciplina de Técnicas de Programação II, sob a guia “Trabalhos e
 
 Atenção!
 ● Serão permitidos grupos de, no máximo, 3 alunos e deverão ser definidos e informados na SAV da disciplina até 23:58h do dia 14/05/2024. Após esta data não será permitida a mudança de grupos. Casos omissos serão tratados pelo docente.
+
 ● Entrega: 02/06/2024 contendo todos os códigos fontes, devidamente documentados, até às 23:58h via Portal (SAV da disciplina TP2);
+
 ● Não serão aceitos trabalhos:
 	o após a data e horário de entrega;
 	o que utilizem códigos em outra linguagem de programação, senão C++;
 	o que utilizem containers (vector, queue, stack, priority_queue, list, set, map...), bem como declarações de variáveis/ponteiros com auto type.
 	o que utilizem outras bibliotecas/repositórios exceto a biblioteca padrão de C++ (https://en.cppreference.com/w/cpp/header).
+
 ● Todos os vetores/matrizes utilizados no trabalho, exceto a estrutura que guarda os caracteres com diferentes densidades, devem ser alocados dinamicamente!
+
 ● O código deve ser organizado de forma modular, usando funções/procedimentos.
+
 ● Opcionalmente, os programas resultantes do trabalho poderão serem testados na presença do professor durante o horário da aula de TP2 seguinte à data de entrega;
+
 ● O código fonte (nome-a-escolher.cpp) deve conter, nas suas primeiras linhas, um campo de comentário com o nome e o número institucional dos responsáveis pelo trabalho;
+
 ● Trabalhos reconhecidos como ‘muito semelhantes’ pela sua estrutura de programação serão desconsiderados. Lembrem-se, variáveis com nomes diferentes, mas em códigos com a mesma estrutura, são considerados ‘muito semelhantes’;
+
 ● Ressalto que este trabalho pode envolver alguns conhecimentos da linguagem de programação C++ que não foram cobertos pelos exemplos ou pelos exercícios realizados em aula. No entanto, estes conhecimentos estão disponíveis nos livros referenciados como material de apoio na ementa da disciplina.
+
 Bom trabalho!
